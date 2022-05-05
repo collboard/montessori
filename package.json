@@ -1,7 +1,7 @@
 {
   "name": "@collboard/montessori",
   "version": "0.3.47",
-  "description": "Simple sample module for Collboard.com created via @collboard/modules-sdk.",
+  "description": "Montessori tray module for Collboard.com created via @collboard/modules-sdk.",
   "license": "SEE LICENSE IN LICENSE",
   "contributors": [
     "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)",
