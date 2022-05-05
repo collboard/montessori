@@ -1,4 +1,11 @@
-import { AbstractTrayArt, Authors, internalModules, ITrayDynamicDefinition, makeArtModule, makeDynamicTrayModule } from '@collboard/modules-sdk';
+import {
+    AbstractTrayArt,
+    Authors,
+    declareModule,
+    ITrayDynamicDefinition,
+    makeArtModule,
+    makeDynamicTrayModule,
+} from '@collboard/modules-sdk';
 import { MontessoriItemsGenerator } from './MontessoriItems';
 
 /**
@@ -12,7 +19,7 @@ const trayDefinition: ITrayDynamicDefinition = {
     getToolbarItems: MontessoriItemsGenerator.toolbar.bind(MontessoriItemsGenerator),
 };
 
-internalModules.declareModule(
+declareModule(
     makeDynamicTrayModule({
         manifest: {
             name: 'MontessoriTool',
@@ -41,7 +48,7 @@ internalModules.declareModule(
     }),
 );
 
-internalModules.declareModule(() => makeArtModule(MontessoriArt));
+declareModule(() => makeArtModule(MontessoriArt));
 
 class MontessoriArt extends AbstractTrayArt {
     public static serializeName = 'Montessori';
