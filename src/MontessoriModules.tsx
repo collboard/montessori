@@ -32,6 +32,7 @@ declareModule(
             categories: ['Math', 'Education'],
             icon: 'http://localhost:9980/icons/abacus.svg',
 
+            // TODO: [🎻] Use authors as contributors from package json
             author: Authors.hedu,
             contributors: [Authors.rosecky],
         },
