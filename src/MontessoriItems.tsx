@@ -1,10 +1,10 @@
 import React from 'react';
-import { NOT_CONSTRUCTABLE } from '../../../40-utils/IFactory';
+import { NOT_CONSTRUCTABLE } from '@collboard/modules-sdk';
 import {
     ITrayDynamicItemList,
     ITrayDynamicToolbarItems,
-} from '../../../40-utils/trayModules/interfaces/ITrayDynamicItemTypes';
-import { Translate } from '../../../50-systems/TranslationsSystem/components/Translate';
+} from'@collboard/modules-sdk';
+import { Translate } from '@collboard/modules-sdk';
 import { itemsArrows, toolbarArrows } from './items/arrows';
 import { itemsEvenOdd, toolbarEvenOdd } from './items/evenOdd';
 import { itemsFractions, toolbarFractions } from './items/fractions';

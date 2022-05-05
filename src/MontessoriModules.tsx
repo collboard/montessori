@@ -1,9 +1,4 @@
-import { ITrayDynamicDefinition } from '../../../40-utils/trayModules/interfaces/ITrayDynamicItemTypes';
-import { Authors } from '../../../50-systems/ModuleStore/Authors';
-import { internalModules } from '../../../50-systems/ModuleStore/internalModules';
-import { makeArtModule } from '../../../50-systems/ModuleStore/makers/makeArtModule';
-import { makeDynamicTrayModule } from '../../../50-systems/ModuleStore/makers/makeTrayDynamicModule';
-import { AbstractTrayArt } from '../../../71-arts/28-AbstractTrayArt';
+import { AbstractTrayArt, Authors, internalModules, ITrayDynamicDefinition, makeArtModule, makeDynamicTrayModule } from '@collboard/modules-sdk';
 import { MontessoriItemsGenerator } from './MontessoriItems';
 
 /**

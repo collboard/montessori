@@ -2,8 +2,8 @@ import React from 'react';
 import {
     ITrayDynamicItemList,
     ITrayDynamicToolbarGroup,
-} from '../../../../40-utils/trayModules/interfaces/ITrayDynamicItemTypes';
-import { Translate } from '../../../../50-systems/TranslationsSystem/components/Translate';
+} from '@collboard/modules-sdk';
+import { Translate } from '@collboard/modules-sdk';
 import { montessoriColors } from '../MontessoriDefaultColors';
 
 const WIDTH = 50;
