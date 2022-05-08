@@ -49,8 +49,6 @@ declareModule(
     }),
 );
 
-declareModule(() => makeArtModule(MontessoriArt));
-
 class MontessoriArt extends AbstractTrayArt {
     public static serializeName = 'Montessori';
     public static manifest = {
@@ -62,3 +60,5 @@ class MontessoriArt extends AbstractTrayArt {
         return trayDefinition;
     }
 }
+
+declareModule(makeArtModule(MontessoriArt));
