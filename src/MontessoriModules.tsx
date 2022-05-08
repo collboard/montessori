@@ -22,7 +22,8 @@ const trayDefinition: ITrayDynamicDefinition = {
 declareModule(
     makeDynamicTrayModule({
         manifest: {
-            name: 'MontessoriTool',
+            name: '@collboard/montessori-tool',
+            deprecatedNames: 'MontessoriTool',
             title: { en: 'Montessori environments', cs: 'Montessori prostředí' },
             description: {
                 en: 'Materiál for teaching mathematics using montessori method of education',
