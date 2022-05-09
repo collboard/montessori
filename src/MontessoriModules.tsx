@@ -24,6 +24,7 @@ declareModule(
     makeDynamicTrayModule({
         manifest: {
             name: '@collboard/montessori-tool',
+            version,
             deprecatedNames: 'MontessoriTool',
             title: { en: 'Montessori environments', cs: 'Montessori prostředí' },
             description: {
@@ -37,7 +38,6 @@ declareModule(
             // TODO: [🎻] Use authors as contributors from package json
             author: Authors.hedu,
             contributors: [Authors.rosecky],
-            version,
         },
         icon: {
             order: 60,
@@ -56,6 +56,7 @@ class MontessoriArt extends AbstractTrayArt {
     public static manifest = {
         // Note+TODO: All modules should be in format @collboard/module-name but we started with art modules
         name: '@collboard/montessori-art',
+        version
     };
 
     getDefinition() {
