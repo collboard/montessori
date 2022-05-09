@@ -7,6 +7,7 @@ import {
     makeDynamicTrayModule,
 } from '@collboard/modules-sdk';
 import abacus from '../assets/icons/abacus.svg';
+import { version } from '../package.json';
 import { MontessoriItemsGenerator } from './MontessoriItems';
 
 /**
@@ -36,6 +37,7 @@ declareModule(
             // TODO: [🎻] Use authors as contributors from package json
             author: Authors.hedu,
             contributors: [Authors.rosecky],
+            version,
         },
         icon: {
             order: 60,
