@@ -7,7 +7,7 @@ import {
     makeDynamicTrayModule,
 } from '@collboard/modules-sdk';
 import abacus from '../assets/icons/abacus.svg';
-import { version } from '../package.json';
+import { repository, version } from '../package.json';
 import { MontessoriItemsGenerator } from './MontessoriItems';
 
 /**
@@ -25,6 +25,7 @@ declareModule(
         manifest: {
             name: '@collboard/montessori-tool',
             version,
+            repository,
             deprecatedNames: 'MontessoriTool',
             title: { en: 'Montessori environments', cs: 'Montessori prostředí' },
             description: {
@@ -56,7 +57,7 @@ class MontessoriArt extends AbstractTrayArt {
     public static manifest = {
         // Note+TODO: All modules should be in format @collboard/module-name but we started with art modules
         name: '@collboard/montessori-art',
-        version
+        version,
     };
 
     getDefinition() {
