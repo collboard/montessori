@@ -10,7 +10,6 @@ import { itemsPearls, toolbarPearls } from './items/pearls';
 import { itemsRedBlueBars, toolbarRedBlueBars } from './items/redBlueBars';
 import { itemsSeguinBoard, toolbarSeguinBoard } from './items/seguinBoard';
 import { itemsStripSum, toolbarStripSum } from './items/stripSum';
-
 import arrows from '../assets/tray/categories/arrows.svg';
 import evenOdd from '../assets/tray/categories/evenOdd.svg';
 import fractions from '../assets/tray/categories/fractions.svg';

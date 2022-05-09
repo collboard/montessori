@@ -6,6 +6,7 @@ import {
     makeArtModule,
     makeDynamicTrayModule,
 } from '@collboard/modules-sdk';
+import abacus from '../assets/icons/abacus.svg';
 import { MontessoriItemsGenerator } from './MontessoriItems';
 
 /**
@@ -14,7 +15,6 @@ import { MontessoriItemsGenerator } from './MontessoriItems';
 
 const trayDefinition: ITrayDynamicDefinition = {
     className: 'MontessoriModule',
-    imageFolder: 'http://localhost:9980/modules/Montessori',
     getItems: MontessoriItemsGenerator.items.bind(MontessoriItemsGenerator),
     getToolbarItems: MontessoriItemsGenerator.toolbar.bind(MontessoriItemsGenerator),
 };
@@ -26,12 +26,12 @@ declareModule(
             deprecatedNames: 'MontessoriTool',
             title: { en: 'Montessori environments', cs: 'Montessori prostředí' },
             description: {
-                en: 'Materiál for teaching mathematics using montessori method of education',
+                en: 'Material for teaching mathematics using montessori method of education',
                 cs: 'Materiál pro výuku matematiky podle montessori pedagogiky',
             },
 
             categories: ['Math', 'Education'],
-            icon: 'http://localhost:9980/icons/abacus.svg',
+            icon: abacus,
 
             // TODO: [🎻] Use authors as contributors from package json
             author: Authors.hedu,
@@ -39,8 +39,7 @@ declareModule(
         },
         icon: {
             order: 60,
-
-            icon: 'abacus',
+            icon: 'abacus', // abacusIcon <- TODO: import abacusIcon from '../assets/icons/abacus@2x.png';
             boardCursor: 'default',
         },
         trayDefinition,
