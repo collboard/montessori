@@ -1,15 +1,5 @@
 import { ITrayDynamicItemList, ITrayDynamicToolbarItems, NOT_CONSTRUCTABLE, Translate } from '@collboard/modules-sdk';
 import React from 'react';
-import { itemsArrows, toolbarArrows } from './items/arrows';
-import { itemsEvenOdd, toolbarEvenOdd } from './items/evenOdd';
-import { itemsFractions, toolbarFractions } from './items/fractions';
-import { itemsHundredBoard, toolbarHundredBoard } from './items/hundredBoard';
-import { itemsMarkGame, toolbarMarkGame } from './items/markGame';
-import { itemsNumberCards, toolbarNumberCards } from './items/numberCards';
-import { itemsPearls, toolbarPearls } from './items/pearls';
-import { itemsRedBlueBars, toolbarRedBlueBars } from './items/redBlueBars';
-import { itemsSeguinBoard, toolbarSeguinBoard } from './items/seguinBoard';
-import { itemsStripSum, toolbarStripSum } from './items/stripSum';
 import arrows from '../assets/tray/categories/arrows.svg';
 import evenOdd from '../assets/tray/categories/evenOdd.svg';
 import fractions from '../assets/tray/categories/fractions.svg';
@@ -20,6 +10,16 @@ import pearls from '../assets/tray/categories/pearls.svg';
 import redBlueBars from '../assets/tray/categories/redBlueBars.svg';
 import seguinTable from '../assets/tray/categories/seguinTable.svg';
 import stripSum from '../assets/tray/categories/stripSum.svg';
+import { itemsArrows, toolbarArrows } from './items/arrows';
+import { itemsEvenOdd, toolbarEvenOdd } from './items/evenOdd';
+import { itemsFractions, toolbarFractions } from './items/fractions';
+import { itemsHundredBoard, toolbarHundredBoard } from './items/hundredBoard';
+import { itemsMarkGame, toolbarMarkGame } from './items/markGame';
+import { itemsNumberCards, toolbarNumberCards } from './items/numberCards';
+import { itemsPearls, toolbarPearls } from './items/pearls';
+import { itemsRedBlueBars, toolbarRedBlueBars } from './items/redBlueBars';
+import { itemsSeguinBoard, toolbarSeguinBoard } from './items/seguinBoard';
+import { itemsStripSum, toolbarStripSum } from './items/stripSum';
 
 export class MontessoriItemsGenerator {
     public static readonly [NOT_CONSTRUCTABLE] = true;

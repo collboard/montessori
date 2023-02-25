@@ -1,10 +1,10 @@
 import {
-    AbstractTrayArt,
-    Authors,
-    declareModule,
-    ITrayDynamicDefinition,
-    makeArtModule,
-    makeDynamicTrayModule,
+  AbstractTrayArt,
+  Authors,
+  declareModule,
+  ITrayDynamicDefinition,
+  makeArtModule,
+  makeDynamicTrayModule
 } from '@collboard/modules-sdk';
 import abacus from '../assets/icons/abacus.svg';
 import { repository, version } from '../package.json';
