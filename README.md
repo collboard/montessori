@@ -7,8 +7,9 @@
 [![License of 🔵 Montessori items for Collboard](https://img.shields.io/github/license/collboard/montessori.svg?style=flat)](https://github.com/collboard/montessori/blob/main/LICENSE)
 [![lint](https://github.com/collboard/montessori/actions/workflows/lint.yml/badge.svg)](https://github.com/collboard/montessori/actions/workflows/lint.yml)
 [![test](https://github.com/collboard/montessori/actions/workflows/test.yml/badge.svg)](https://github.com/collboard/montessori/actions/workflows/test.yml)
-[![Known Vulnerabilities](https://snyk.io/test/github/collboard/montessori/badge.svg)](https://snyk.io/test/github/collboard/montessori)
 [![Issues](https://img.shields.io/github/issues/collboard/montessori.svg?style=flat)](https://github.com/collboard/montessori/issues)
+<!--[![Known Vulnerabilities](https://snyk.io/test/github/collboard/montessori/badge.svg)](https://snyk.io/test/github/collboard/montessori)-->
+<!--[![Socket](https://socket.dev/api/badge/npm/package/@collboard/montessori)](https://socket.dev/npm/package/@collboard/montessori)-->
 
 <!--/Badges-->
 
