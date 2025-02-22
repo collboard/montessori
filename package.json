@@ -1,6 +1,6 @@
 {
     "name": "@collboard/montessori",
-    "version": "0.4.350",
+    "version": "0.4.351",
     "description": "Montessori tray module for Collboard.com",
     "license": "Apache-2.0",
     "contributors": [
